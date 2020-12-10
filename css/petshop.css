@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeeee;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    background-image:url("../img/header.jpg") ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    color: #4a5057;
+    font-size: 16px;
+    margin: 0px 15px;
+    font-family: myriad pro;
+    font-weight: 600;
+}
+
+.menu img{
+    height: 18px;
+
+}
+
+
+.ingresar{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #3d3d3e;
+    color: #3d3d3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    font-weight: 700;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+.ingresar:hover{
+    background-color: #e7770e;
+    color: #ffffff;
+    transition: all ease 0.3s;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+.caja{
+    width: 220px;
+    height: 310px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 30px rgba(0,0,0,0.1);
+    background-color: #f6f6f6;
+    margin: 30px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja p{
+    font-family: calibri;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #3d3d3e;
+}
+
+.slide-detail p:nth-child(1){
+    font-size: 23px;
+    font-weight: 700;
+
+}
+.slide-detail p:nth-child(2){
+
+    font-size: 18px;
+}
+
+.slide-detail{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+    width: 100%;
+}
+
+.usuario{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d3d3e;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja-img01{
+    background-image: url("../img/paseo\ de\ perros.jpg");
+}
+
+.caja-img02{
+    background-image: url("../img/newsletter.jpg");
+}
+
+.caja-img03{
+    background-image: url("../img/mascotas\ exoticas.jpg");
+}
+.caja-img04{
+    background-image: url("../img/productos.jpg");
+}
+.caja-img05{
+    background-image: url("../img/veterinario.jpg");
+}
+.caja-img06{
+    background-image: url("../img/sobre\ nosotros.jpg");
+}
